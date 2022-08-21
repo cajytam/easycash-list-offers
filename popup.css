@@ -1,0 +1,15 @@
+#container {
+  width: 280px;
+  color: #333;
+}
+
+#title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+#list-offers  {
+  margin: 5px 5px;
+  padding: 3px;
+}

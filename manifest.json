@@ -1,0 +1,20 @@
+{
+    "name": "EasyCash MagDispo",
+    "version": "0.1.0",
+    "description": "Sur une fiche produit d'un article vendu sur EasyCash.fr, l'extension vérifie que ce produit est dispo sur d'autres magasins.",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://*.easycash.fr/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "assets/easycash-logo.png",
+        "24": "assets/easycash-logo.png",
+        "32": "assets/easycash-logo.png"
+      },
+      "default_title": "EasyCash MagDispo",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
