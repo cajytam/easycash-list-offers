@@ -1,5 +1,6 @@
 const getArticleEasyCashID = (url) => {
-  const articleParameters = url.split("/")[4];
+  let articleParameters = url.split("/")[4];
+  articleParameters = articleParameters.split("?")[0];
   return articleParameters.slice(
       articleParameters.lastIndexOf("-") + 1
   )
